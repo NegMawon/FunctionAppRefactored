@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionAppRefactored", "FunctionAppRefactored\FunctionAppRefactored.csproj", "{B4C0A059-C00F-489C-ACF7-6B574B329033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionAppTests", "FunctionAppTests\FunctionAppTests.csproj", "{D31877A2-66AC-41F7-8256-81E51DA96A54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4C0A059-C00F-489C-ACF7-6B574B329033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C0A059-C00F-489C-ACF7-6B574B329033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C0A059-C00F-489C-ACF7-6B574B329033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C0A059-C00F-489C-ACF7-6B574B329033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31877A2-66AC-41F7-8256-81E51DA96A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31877A2-66AC-41F7-8256-81E51DA96A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31877A2-66AC-41F7-8256-81E51DA96A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31877A2-66AC-41F7-8256-81E51DA96A54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2FD674E-A38C-428B-893B-ACAABD9DC733}
+	EndGlobalSection
+EndGlobal
