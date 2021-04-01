@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionAppRefactored", "Fu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionAppTests", "FunctionAppTests\FunctionAppTests.csproj", "{D31877A2-66AC-41F7-8256-81E51DA96A54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionAppRefactored.Weather.Service", "FunctionAppRefactored.Weather.Service\FunctionAppRefactored.Weather.Service.csproj", "{3BCB4E4C-61D2-4F15-A4AC-191CB7484528}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D31877A2-66AC-41F7-8256-81E51DA96A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D31877A2-66AC-41F7-8256-81E51DA96A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D31877A2-66AC-41F7-8256-81E51DA96A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BCB4E4C-61D2-4F15-A4AC-191CB7484528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BCB4E4C-61D2-4F15-A4AC-191CB7484528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BCB4E4C-61D2-4F15-A4AC-191CB7484528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BCB4E4C-61D2-4F15-A4AC-191CB7484528}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
