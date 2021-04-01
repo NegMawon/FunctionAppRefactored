@@ -26,23 +26,20 @@ namespace FunctionAppRefactored
         {
             log.LogInformation("C# HTTP trigger function processed a Get request.");
 
-            string postal_code = req.Query["postal_code"];
-            string key = req.Query[Environment.GetEnvironmentVariable("API_KEY")];
+            string PostalCode = req.Query["postal_code"];
+            string key = Environment.GetEnvironmentVariable("APIKEY");
             
             if (!string.IsNullOrEmpty(key))
             {
-                var responseMessage = await _httpClient.GetAsync("https://api.weatherbit.io/v2.0/current" + postal_code + key);
+                var responseMessage = await _httpClient.GetAsync($"https://api.weatherbit.io/v2.0/current?postal_code={PostalCode}&key={key}");
                 var locationWeatherData = responseMessage.Content.ReadAsStringAsync().Result;
                 return new OkObjectResult(locationWeatherData);
             }
             else
             {
                 throw new ArgumentNullException("Unable to retrieve weather data, key cannot be empty");
-            }
-            //var responseMessage = await _httpClient.GetAsync("https://api.weatherbit.io/v2.0/current" + postal_code + key);
-            //var locationWeatherData = responseMessage.Content.ReadAsStringAsync().Result;
-
-            
+            }          
+                        
         }
     }
 }

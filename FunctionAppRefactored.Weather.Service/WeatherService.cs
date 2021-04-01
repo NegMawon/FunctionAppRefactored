@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// Weather service class implements GetWeatherDataAsync method
+/// from IWeatherService Interface
+/// </summary>
 namespace FunctionAppRefactored.Weather.Service
 {
     public class WeatherService : IWeatherService

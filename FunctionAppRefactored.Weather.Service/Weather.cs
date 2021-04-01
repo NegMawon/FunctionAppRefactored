@@ -1,5 +1,8 @@
 ﻿using System;
 
+/// <summary>
+/// Creating Weather Class to mock the data
+/// </summary>
 namespace FunctionAppRefactored.Weather.Service
 {
     public class Weather
